@@ -1233,7 +1233,7 @@ $_LANG['addfundsintro'] = "Déposez de l'argent en avance";
 $_LANG['registerintro'] = "Créez un compte chez nous...";
 $_LANG['masspayintro'] = "Payer toutes les factures énumérées ci-dessous en une seule transaction simple en choisissant une méthode de paiement";
 $_LANG['domaincheckerintro'] = "Commencez ici votre recherche d'hébergement web en vérifiant si votre domaine est disponible...";
-$_LANG['networkstatusintro'] = "Informations sur le statut de service et les annonces du réseau";
+$_LANG['networkstatusintro'] = "Informations sur le statut des services et les annonces du réseau";
 
 $_LANG['creditcardyourinfo'] = "Vos Informations de facturation";
 $_LANG['ourlatestnews'] = "Nos dernières nouvelles";

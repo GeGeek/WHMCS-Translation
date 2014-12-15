@@ -514,10 +514,10 @@ $_LANG['networkissuesprioritylow'] = "Basse";
 $_LANG['networkissuesprioritymedium'] = "Moyenne";
 $_LANG['networkissuesstatusinprogress'] = "Résolution en cours";
 $_LANG['networkissuesstatusinvestigating'] = "Examen en cours";
-$_LANG['networkissuesstatusopen'] = "Ouverte";
+$_LANG['networkissuesstatusopen'] = "Ouvert";
 $_LANG['networkissuesstatusoutage'] = "Coupure";
-$_LANG['networkissuesstatusreported'] = "Reportée";
-$_LANG['networkissuesstatusresolved'] = "Résolue";
+$_LANG['networkissuesstatusreported'] = "Reporté";
+$_LANG['networkissuesstatusresolved'] = "Résolu";
 $_LANG['networkissuesstatusscheduled'] = "Programmé";
 $_LANG['networkissuestitle'] = "Problèmes réseau";
 $_LANG['networkissuestypeother'] = "Autre";
@@ -1273,7 +1273,7 @@ $_LANG['domaincurrentlyunlockedexp'] = "Vous devriez activer le verrouillage reg
 $_LANG['searchmultipletlds'] = "Rechercher de multiple extensions (TLDs)";
 
 $_LANG['networkstatustitle'] = "Statut du réseau";
-$_LANG['networkstatusnone'] = "Il n'y a actuellement aucun %s problème de réseau actuellement";
+$_LANG['networkstatusnone'] = "Il n'y a aucun problème de réseau %s actuellement";
 $_LANG['serverstatusheadingtext'] = "Le tableau ci-dessous affiche une vue générale de notre serveur en temps réel d'où vous pouvez vérifier s'il y a des problèmes connus.";
 
 $_LANG['clientareacancelreasonrequired'] = "Vous devez entrer une raison d'annulation";

@@ -1590,9 +1590,9 @@ $_LANG['servername'] = "Serveur";
 $_LANG['visitwebsite'] = "Visiter le site web";
 $_LANG['whoisinfo'] = "Info WHOIS";
 
-$_LANG['tableshowing'] = "Afficher _START_ à _END_ de _TOTAL_ entries";
-$_LANG['tableempty'] = "Afficher de 0 à 0 de 0 entrées";
-$_LANG['tablefiltered'] = "(filtré depuis _MAX_ total entrées)";
+$_LANG['tableshowing'] = "Afficher _START_ à _END_ des _TOTAL_ entrées";
+$_LANG['tableempty'] = "Afficher de 0 à 0 des 0 entrées";
+$_LANG['tablefiltered'] = "(filtré de _MAX_ total entrées)";
 $_LANG['tablelength'] = "Afficher _MENU_ entrées";
 $_LANG['tableloading'] = "Chargement...";
 $_LANG['tableprocessing'] = "Traitement...";

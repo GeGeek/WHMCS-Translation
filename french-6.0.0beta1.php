@@ -25,11 +25,11 @@ $_LANG['locale'] = "fr_FR";
 
 $_LANG['accountinfo'] = "Informations du compte";
 $_LANG['accountstats'] = "Statistiques du compte";
-$_LANG['addfunds'] = "Ajouter des fonds";
+$_LANG['addfunds'] = "Ajouter fonds";
 $_LANG['addfundsamount'] = "Montant à ajouter";
 $_LANG['addfundsmaximum'] = "Dépôt maximum";
-$_LANG['addfundsmaximumbalance'] = "Solde maximal";
-$_LANG['addfundsmaximumbalanceerror'] = "Le solde maximal est de";
+$_LANG['addfundsmaximumbalance'] = "Montant maximal";
+$_LANG['addfundsmaximumbalanceerror'] = "Le montant maximal est de";
 $_LANG['addfundsmaximumerror'] = "Le dépôt maximum est de";
 $_LANG['addfundsminimum'] = "Dépôt minimum";
 $_LANG['addfundsminimumerror'] = "Le dépôt minimum est de";
@@ -406,7 +406,7 @@ $_LANG['invoiceaddcreditamount'] = "Entrez le montant à appliquer:";
 $_LANG['invoiceaddcreditapply'] = "Utiliser le crédit disponible";
 $_LANG['invoiceaddcreditdesc1'] = "Votre solde de crédit est:";
 $_LANG['invoiceaddcreditdesc2'] = "Il peut être appliqué sur votre facture via le formulaire ci-dessous.";
-$_LANG['invoiceaddcreditoverbalance'] = "Vous ne pouvez pas appliquer plus de crédit que votre solde actuel";
+$_LANG['invoiceaddcreditoverbalance'] = "Vous ne pouvez pas appliquer plus de crédit que votre montant actuel";
 $_LANG['invoiceaddcreditovercredit'] = "Vous ne pouvez pas appliquer plus de crédit que vous n’en avez dans votre compte";
 $_LANG['invoicenumber'] = "Facture #";
 $_LANG['invoiceofflinepaid'] = "Les paiements hors ligne par carte de crédit sont faits manuellement.<br />Vous recevrez un email de confirmation dès que votre paiement sera effectué.";
@@ -415,7 +415,7 @@ $_LANG['invoices'] = "Mes factures";
 $_LANG['invoicesamount'] = "Montant";
 $_LANG['invoicesattn'] = "ATTN";
 $_LANG['invoicesbacktoclientarea'] = "&laquo; Retour sur l’espace client";
-$_LANG['invoicesbalance'] = "Solde";
+$_LANG['invoicesbalance'] = "Montant";
 $_LANG['invoicesbefore'] = "Avant";
 $_LANG['invoicescancelled'] = "ANNULÉE";
 $_LANG['invoicescollections'] = "Collections";
@@ -850,7 +850,7 @@ $_LANG['overagestotaldiskusage'] = "Utilisation totale du disque";
 $_LANG['overagestotalbwusage'] = "Utilisation totale de la bande passante";
 
 $_LANG['affiliatescommissionspending'] = "Commissions en attente de maturation";
-$_LANG['affiliatescommissionsavailable'] = "Solde des commissions disponible";
+$_LANG['affiliatescommissionsavailable'] = "Montant des commissions disponible";
 $_LANG['affiliatessignups'] = "Nombre d’inscriptions";
 $_LANG['affiliatesconversionrate'] = "Taux de conversion";
 
@@ -908,7 +908,7 @@ $_LANG['invoicestotaldue'] = "Total à régler";
 $_LANG['masspaytitle'] = "Paiement groupé";
 $_LANG['masspaydescription'] = "Vous trouverez ci-dessous un récapitulatif des factures sélectionnées ainsi que le montant total à payer. Pour procéder au paiement veuillez choisir la méthode de paiement ci-dessous puis valider.";
 $_LANG['masspayselected'] = "Payer les factures sélectionnées";
-$_LANG['masspayall'] = "Payer la totalité";
+$_LANG['masspayall'] = "Payer tout";
 $_LANG['masspaymakepayment'] = "Effectuer le paiement";
 
 # Version 4.3
@@ -1036,7 +1036,7 @@ $_LANG['quotestagelost'] = "Expiré";
 $_LANG['quotestagedead'] = "Expiré";
 $_LANG['quoteref'] = "Re Devis #";
 $_LANG['quotedeposit'] = "Depôt";
-$_LANG['quotefinalpayment'] = "Solde du dépôt";
+$_LANG['quotefinalpayment'] = "Montant du dépôt";
 
 $_LANG['invoiceoneoffpayment'] = "Effectuer un paiement unique";
 $_LANG['invoicesubscriptionpayment'] = "Créer un abonnement récurrent automatique";
@@ -1243,8 +1243,8 @@ $_LANG['creditcardyourinfo'] = "Vos Informations de facturation";
 $_LANG['ourlatestnews'] = "Nos dernières nouvelles";
 $_LANG['ccexpiringsoon'] = "La carte de crédit expire bientôt";
 $_LANG['ccexpiringsoondesc'] = "Votre carte de crédit expire bientôt. Veuillez vous assurer de %smettre à jour les détails de votre carte %s chez nous dès que possible";
-$_LANG['availcreditbal'] = "Solde de crédit disponible";
-$_LANG['availcreditbaldesc'] = "Vous avez un solde de crédit de %s avec nous et celui-ci sera automatiquement appliqué à toutes les nouvelles factures";
+$_LANG['availcreditbal'] = "Montant de crédit disponible";
+$_LANG['availcreditbaldesc'] = "Vous avez un montant de crédit de %s avec nous et celui-ci sera automatiquement appliqué à toutes les nouvelles factures";
 $_LANG['youhaveoverdueinvoices'] = "Vous avez %s facture(s) en retard";
 $_LANG['overdueinvoicesdesc'] = "Pour éviter une interuption de service, veuillez payer vos factures en retard dès que possible. %s Payer maintenant &raquo;%s";
 $_LANG['supportticketsnoneopen'] = "Il n’y a actuellement aucun ticket de support ouvert";
@@ -1325,7 +1325,7 @@ $_LANG['copyright'] = "Copyright";
 $_LANG['allrightsreserved'] = "Tous droits réservés";
 $_LANG['supportticketsclose'] = "Fermer le ticket";
 $_LANG['affiliatesinitialthen'] = "Initialement puis";
-$_LANG['invoicesoutstandingbalance'] = "Solde restant";
+$_LANG['invoicesoutstandingbalance'] = "Montant restant";
 
 $_LANG['cpanellogin'] = "Connexion à cPanel";
 $_LANG['cpanelwhmlogin'] = "Connexion à WHM";
@@ -1574,7 +1574,7 @@ $_LANG['billingdetails'] = "Détails de facturation";
 $_LANG['homechooseproductservice'] = "Choisissez un produit/service à gérer:";
 
 $_LANG['invoicesdue'] = "Facture(s) en attente";
-$_LANG['invoicesduemsg'] = "Vous avez %s factures impayées actuellement avec un solde total de %s";
+$_LANG['invoicesduemsg'] = "Vous avez %s facture(s) impayée(s) actuellement avec un montant total de %s";
 $_LANG['noinvoicesduemsg'] = "Vous n’avez pas de facture impayée actuellement.";
 
 $_LANG['expiringsoon'] = "Expire bientôt";
@@ -1754,14 +1754,14 @@ $_LANG['quoteacceptcontractwarning'] = "Soyez conscient que l’acceptation d’
 $_LANG['clientAlerts']['creditCardExpiring'] = "Votre carte de crédit :creditCardType-:creditCardLastFourDigits expire dans :days jours. Veuillez la mettre à jour dès que vous pouvez.";
 $_LANG['clientAlerts']['domainsExpiringSoon'] = "Vous avez :numberOfDomains domaine(s) expirant dans les :days prochains jours.";
 $_LANG['clientAlerts']['invoicesUnpaid'] = "Vous avez :numberOfInvoices facture(s) impayée(s). Payez la(es) rapidement pour être tranquille.";
-$_LANG['clientAlerts']['invoicesOverdue'] = "Vous avez :numberOfInvoices facture(s) en souffrance avec un solde total de :balanceDue. Payez-les maintenant pour éviter toute interruption de service.";
+$_LANG['clientAlerts']['invoicesOverdue'] = "Vous avez :numberOfInvoices facture(s) en souffrance avec un montant total de :balanceDue. Payez-les maintenant pour éviter toute interruption de service.";
 $_LANG['clientAlerts']['creditBalance'] = "Vous avez un solde de crédit de :creditBalance.";
 
 // Client homepage panels
 $_LANG['clientHomePanels']['unpaidInvoices'] = "Factures impayées";
-$_LANG['clientHomePanels']['unpaidInvoicesMsg'] = "Vous avez :numberOfInvoices facture(s) impayée(s) avec un solde total de :balanceDue. Payez la(es) rapidement pour être tranquille.";
+$_LANG['clientHomePanels']['unpaidInvoicesMsg'] = "Vous avez :numberOfInvoices facture(s) impayée(s) avec un montant total de :balanceDue. Payez la(es) rapidement pour être tranquille.";
 $_LANG['clientHomePanels']['overdueInvoices'] = "Factures en souffrance";
-$_LANG['clientHomePanels']['overdueInvoicesMsg'] = "Vous avez :numberOfInvoices facture(s) en souffrance avec un solde total de :balanceDue. Payez-les maintenant pour éviter toute interruption de service.";
+$_LANG['clientHomePanels']['overdueInvoicesMsg'] = "Vous avez :numberOfInvoices facture(s) en souffrance avec un montant total de :balanceDue. Payez-les maintenant pour éviter toute interruption de service.";
 $_LANG['clientHomePanels']['domainsExpiringSoon'] = "Domaines expirant bientôt";
 $_LANG['clientHomePanels']['domainsExpiringSoonMsg'] = "Vous avez :numberOfDomains domaine(s) expirant dans les :days prochains jours. Renouvelez le(es) rapidement pour être tranquille.";
 $_LANG['clientHomePanels']['activeProductsServices'] = "Vos produits/services actifs";
@@ -1770,7 +1770,7 @@ $_LANG['clientHomePanels']['recentNews'] = "Nouveautés récentes";
 $_LANG['clientHomePanels']['affiliateProgram'] = "Programme d’affiliation";
 $_LANG['clientHomePanels']['recentSupportTickets'] = "Tickets de support récents";
 $_LANG['clientHomePanels']['recentSupportTicketsNone'] = "Aucun ticket récent trouvé. Si vous avez besoin d’aide, veuillez <a href=\"submitticket.php\">ouvrir un ticket</a>.";
-$_LANG['clientHomePanels']['affiliateSummary'] = "Votre solde de commission actuel est :commissionBalance. Vous avez seulement besoin d’un autre :amountUntilWithdrawalLevel avant de pouvoir retirer vos gains.";
+$_LANG['clientHomePanels']['affiliateSummary'] = "Votre montant de commission actuel est :commissionBalance. Vous avez seulement besoin d’un autre :amountUntilWithdrawalLevel avant de pouvoir retirer vos gains.";
 
 $_LANG['upgradeNotPossible'] = "La mise à niveau de ce produit n’est pas possible.  Si vous croyez que vous avez atteint cette page par erreur, veuillez aviser notre département de support. Sinon, revenez en arrière et vérifiez votre sélection.";
 
@@ -1805,7 +1805,7 @@ $_LANG['clientHomeSearchKb'] = "Entrez une question ici pour rechercher des rép
 $_LANG['whoisContactWarning'] = "Il est important de garder vos informations de contact WHOIS tout le temps à jour afin d’éviter de perdre le contrôle de votre domaine.";
 
 $_LANG['paymentstodate'] = "Paiements de la date";
-$_LANG['balancedue'] = "Solde dû";
+$_LANG['balancedue'] = "Montant dû";
 $_LANG['submitpayment'] = "Procéder au paiement";
 
 $_LANG['domaincheckeravailable'] = "Disponible";

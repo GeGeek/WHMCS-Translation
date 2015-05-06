@@ -1754,14 +1754,14 @@ $_LANG['quoteacceptcontractwarning'] = "Soyez conscient que l’acceptation d’
 $_LANG['clientAlerts']['creditCardExpiring'] = "Votre carte de crédit :creditCardType-:creditCardLastFourDigits expire dans :days jours. Veuillez la mettre à jour dès que vous pouvez.";
 $_LANG['clientAlerts']['domainsExpiringSoon'] = "Vous avez :numberOfDomains domaine(s) expirant dans les :days prochains jours.";
 $_LANG['clientAlerts']['invoicesUnpaid'] = "Vous avez :numberOfInvoices facture(s) impayée(s). Payez la(es) rapidement pour être tranquille.";
-$_LANG['clientAlerts']['invoicesOverdue'] = "Vous avez :numberOfInvoices facture(s) en souffrance avec un montant total de :balanceDue. Payez-les maintenant pour éviter toute interruption de service.";
+$_LANG['clientAlerts']['invoicesOverdue'] = "Vous avez :numberOfInvoices facture(s) en souffrance avec un montant total de :balanceDue. Payez la(es) maintenant pour éviter toute interruption de service.";
 $_LANG['clientAlerts']['creditBalance'] = "Vous avez un solde de crédit de :creditBalance.";
 
 // Client homepage panels
 $_LANG['clientHomePanels']['unpaidInvoices'] = "Factures impayées";
 $_LANG['clientHomePanels']['unpaidInvoicesMsg'] = "Vous avez :numberOfInvoices facture(s) impayée(s) avec un montant total de :balanceDue. Payez la(es) rapidement pour être tranquille.";
 $_LANG['clientHomePanels']['overdueInvoices'] = "Factures en souffrance";
-$_LANG['clientHomePanels']['overdueInvoicesMsg'] = "Vous avez :numberOfInvoices facture(s) en souffrance avec un montant total de :balanceDue. Payez-les maintenant pour éviter toute interruption de service.";
+$_LANG['clientHomePanels']['overdueInvoicesMsg'] = "Vous avez :numberOfInvoices facture(s) en souffrance avec un montant total de :balanceDue. Payez la(es) maintenant pour éviter toute interruption de service.";
 $_LANG['clientHomePanels']['domainsExpiringSoon'] = "Domaines expirant bientôt";
 $_LANG['clientHomePanels']['domainsExpiringSoonMsg'] = "Vous avez :numberOfDomains domaine(s) expirant dans les :days prochains jours. Renouvelez le(es) rapidement pour être tranquille.";
 $_LANG['clientHomePanels']['activeProductsServices'] = "Vos produits/services actifs";

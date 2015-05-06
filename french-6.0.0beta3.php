@@ -1814,3 +1814,16 @@ $_LANG['domaincheckeradding'] = "Ajout";
 $_LANG['domaincheckeradded'] = "Ajouté";
 $_LANG['domaincheckernomoresuggestions'] = "Ce sont tous les résultats que nous avons pour vous! Si vous n’avez toujours pas trouvé ce que vous cherchiez, veuillez essayer un terme ou des mots-clés de recherche différents.";
 $_LANG['domaincheckerunabletooffertld'] = "Malheureusement nous ne sommes pas en mesure d’ajouter cette extension en ce moment";
+
+# Licensing Addon
+
+$_LANG['licensingaddon']['mylicenses'] = "Mes Licences";
+$_LANG['licensingaddon']['latestdownload'] = "Derniers téléchargements";
+$_LANG['licensingaddon']['downloadnow'] = "Télécharger maintenant";
+$_LANG['licensingaddon']['licensekey'] = "Clef de licence";
+$_LANG['licensingaddon']['validdomains'] = "Domaines valides";
+$_LANG['licensingaddon']['validips'] = "IPs valides";
+$_LANG['licensingaddon']['validdirectory'] = "Répertoire valide";
+$_LANG['licensingaddon']['status'] = "Statut de la licence";
+$_LANG['licensingaddon']['reissue'] = "Réémettre la licence";
+$_LANG['licensingaddon']['reissuestatusmsg'] = "Le domaine valide, IP et répertoire seront détectés et enregistrés la prochaine fois que la license sera utilisée.";

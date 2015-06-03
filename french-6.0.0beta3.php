@@ -13,13 +13,13 @@
  *
  * @package    WHMCS
  * @author     WHMCS Limited <development@whmcs.com>
- * @copyright  Copyright (c) WHMCS Limited 2005-2014
+ * @copyright  Copyright (c) WHMCS Limited 2005-2015
  * @license    http://www.whmcs.com/license/ WHMCS Eula
  * @version    $Id$
  * @link       http://www.whmcs.com/
  */
 
-if (!defined("WHMCS")) die("This file cannot be accessed directly");
+if (!defined("WHMCS")) die("Vous ne pouvez pas accéder à ce fichier directement");
 
 $_LANG['locale'] = "fr_FR";
 
@@ -644,7 +644,7 @@ $_LANG['ordertaxcalculations'] = "Calcul des taxes";
 $_LANG['ordertaxstaterequired'] = "Vous devez votre état ou région pour que le calcul des taxes s'éffectue";
 $_LANG['ordertitle'] = "Commander";
 $_LANG['ordertos'] = "Conditions d’utilisation";
-$_LANG['ordertosagreement'] = "J'ai lu et j'accepte les";
+$_LANG['ordertosagreement'] = "J’ai lu et j’accepte les";
 $_LANG['ordertotalduetoday'] = "Total à payer aujourd’hui";
 $_LANG['ordertotalrecurring'] = "Total récurrent";
 $_LANG['ordertransferdomain'] = "Transférer un nom de domaine existant";
@@ -1164,17 +1164,17 @@ $_LANG['bundlevaliddateserrordesc'] = "Cette offre groupée n’est plus active 
 $_LANG['bundlemaxusesreached'] = "Offre groupée indisponible";
 $_LANG['bundlemaxusesreacheddesc'] = "Cette ffre groupée a atteint le nombre maximum d’utilisations autorisées et n’est malheureusement plus disponible. Veuillez nous contacter si vous êtes intéressé par nos services afin de discuter.";
 $_LANG['bundlereqsnotmet'] = "Les exigences de l’offre groupée ne sont pas réunies";
-$_LANG['bundlewarningpromo'] = "l’offre groupée sélectionnée ne peut être utilisée en conjonction avec d’autres promotions ou offres";
-$_LANG['bundlewarningproductcycle'] = "l’offre groupée sélectionnée requiert que vous choisissiez le cycle de facturation '%s' pour le produit %s afin d’être applicable";
-$_LANG['bundlewarningproductconfopreq'] = "l’offre groupée sélectionnée requiert que vous séléctionniez '%s' pour '%s' afin d’être applicable";
-$_LANG['bundlewarningproductconfopyesnoenable'] = "l’offre groupée sélectionnée requiert que vous activiez l’option '%s' afin d’être applicable";
-$_LANG['bundlewarningproductconfopyesnodisable'] = "l’offre groupée sélectionnée requiert que vous désactiviez l’option '%s' afin d’être applicable";
-$_LANG['bundlewarningproductconfopqtyreq'] = "l’offre groupée sélectionnée requiert que vous choisissiez une quantité de '%s' pour '%s' afin d’être applicable";
-$_LANG['bundlewarningproductaddonreq'] = "l’offre groupée sélectionnée requiert que vous sélectionniez l’ajout '%s' pour le produit %s afin d’être applicable";
-$_LANG['bundlewarningdomainreq'] = "l’offre groupée sélectionnée requiert que vous enregegistriez ou transferiez un domaine avec le produit %s pour être applicable";
-$_LANG['bundlewarningdomaintld'] = "l’offre groupée sélectionnée requiert que vous choisissiez un domaine avec l’extension '%s' pour le domaine %s afin d’être applicable";
-$_LANG['bundlewarningdomainregperiod'] = "l’offre groupée sélectionnée requiert que vous sélectionniez la période d’enregistrement '%s' du domaine %s afin d’être applicable";
-$_LANG['bundlewarningdomainaddon'] = "l’offre groupée sélectionnée requiert que vous sélectionniez l’ajout '%s' pour le domaine %s afin d’être applicable";
+$_LANG['bundlewarningpromo'] = "L’offre groupée sélectionnée ne peut être utilisée en conjonction avec d’autres promotions ou offres";
+$_LANG['bundlewarningproductcycle'] = "L’offre groupée sélectionnée requiert que vous choisissiez le cycle de facturation '%s' pour le produit %s afin d’être applicable";
+$_LANG['bundlewarningproductconfopreq'] = "L’offre groupée sélectionnée requiert que vous séléctionniez '%s' pour '%s' afin d’être applicable";
+$_LANG['bundlewarningproductconfopyesnoenable'] = "L’offre groupée sélectionnée requiert que vous activiez l’option '%s' afin d’être applicable";
+$_LANG['bundlewarningproductconfopyesnodisable'] = "L’offre groupée sélectionnée requiert que vous désactiviez l’option '%s' afin d’être applicable";
+$_LANG['bundlewarningproductconfopqtyreq'] = "L’offre groupée sélectionnée requiert que vous choisissiez une quantité de '%s' pour '%s' afin d’être applicable";
+$_LANG['bundlewarningproductaddonreq'] = "L’offre groupée sélectionnée requiert que vous sélectionniez l’ajout '%s' pour le produit %s afin d’être applicable";
+$_LANG['bundlewarningdomainreq'] = "L’offre groupée sélectionnée requiert que vous enregegistriez ou transferiez un domaine avec le produit %s pour être applicable";
+$_LANG['bundlewarningdomaintld'] = "L’offre groupée sélectionnée requiert que vous choisissiez un domaine avec l’extension '%s' pour le domaine %s afin d’être applicable";
+$_LANG['bundlewarningdomainregperiod'] = "L’offre groupée sélectionnée requiert que vous sélectionniez la période d’enregistrement '%s' du domaine %s afin d’être applicable";
+$_LANG['bundlewarningdomainaddon'] = "L’offre groupée sélectionnée requiert que vous sélectionniez l’ajout '%s' pour le domaine %s afin d’être applicable";
 
 # New Client Area Template  Lines
 
@@ -1367,16 +1367,6 @@ $_LANG['billableitemshour'] = "Heure";
 $_LANG['invoicefilename'] = "Facture-";
 $_LANG['quotefilename'] = "Devis-";
 
-# Licensing Addon
-
-$_LANG['licensingkey'] = "Clef de licence";
-$_LANG['licensingvaliddomains'] = "Domaines valides";
-$_LANG['licensingvalidips'] = "IPs valides";
-$_LANG['licensingvaliddirectory'] = "Répertoire valide";
-$_LANG['licensingstatus'] = "Statut de la licence";
-$_LANG['licensingreissue'] = "Réémettre la licence";
-$_LANG['licensingreissued'] = "Le domaine valide, IP et répertoire seront détectés et enregistrés la prochaine fois que la license sera utilisée.";
-
 # Domain Addons
 
 $_LANG['domainaddons'] = "Ajouts";
@@ -1556,8 +1546,6 @@ $_LANG['sidebars']['viewAccount']['contacts/subAccounts'] = "Contacts/Sous-compt
 $_LANG['sidebars']['viewAccount']['changePassword'] = "Changer le mot de passe";
 $_LANG['sidebars']['viewAccount']['securitySettings'] = "Paramètres de sécurité";
 $_LANG['sidebars']['viewAccount']['emailHistory'] = "Historique des emails";
-
-$_LANG['hosting'] = "Hébergement";
 
 $_LANG['aboutsecurityquestions'] = "Pourquoi des questions de sécurité?";
 $_LANG['registersecurityquestionblurb'] = "Définir une question de sécurité fourni une sécurité supplémentaire, comme tous les changements sur votre compte nécessitent un supplément d’information à partir de votre question.";
@@ -1804,16 +1792,29 @@ $_LANG['clientHomeSearchKb'] = "Entrez une question ici pour rechercher des rép
 
 $_LANG['whoisContactWarning'] = "Il est important de garder vos informations de contact WHOIS tout le temps à jour afin d’éviter de perdre le contrôle de votre domaine.";
 
-$_LANG['paymentstodate'] = "Paiements de la date";
+$_LANG['paymentstodate'] = "Paiements à la date";
 $_LANG['balancedue'] = "Montant dû";
 $_LANG['submitpayment'] = "Procéder au paiement";
 
 $_LANG['domaincheckeravailable'] = "Disponible";
+$_LANG['domaincheckertransferable'] = "Disponible au transfert";
 $_LANG['domaincheckertaken'] = "Pris";
 $_LANG['domaincheckeradding'] = "Ajout";
 $_LANG['domaincheckeradded'] = "Ajouté";
 $_LANG['domaincheckernomoresuggestions'] = "Ce sont tous les résultats que nous avons pour vous! Si vous n’avez toujours pas trouvé ce que vous cherchiez, veuillez essayer un terme ou des mots-clés de recherche différents.";
 $_LANG['domaincheckerunabletooffertld'] = "Malheureusement nous ne sommes pas en mesure d’ajouter cette extension en ce moment";
+$_LANG['domaincheckerbulkplaceholder'] = "Entrez jusqu’à 20 noms de domaine.\nChaque nom doit être sur une ligne séparée.\n\nExemples:\nexample.com\nexample.net";
+
+$_LANG['domainchecker']['suggestiontakentitle'] = "Domaine indisponible";
+$_LANG['domainchecker']['suggestiontakenmsg'] = "Malheureusement le domaine que vous avez choisi est indisponible. Cela peut arriver si le domaine a été enregistré récemment. Veuillez revenir en arrière et choisir un nouveau domaine.";
+$_LANG['domainchecker']['suggestiontakenchooseanother'] = "Choisir un autre domaine";
+
+$_LANG['domainchecker']['alreadyincarttitle'] = "Déjà dans le panier";
+$_LANG['domainchecker']['alreadyincartmsg'] = "Ce domaine est déjà dans votre panier. Procédez au paiement maintenant pour compléter votre commande.";
+$_LANG['domainchecker']['alreadyincartcheckoutnow'] = "Payer maintenant";
+
+$_LANG['genericerror']['title'] = "Oops, il y a eu un problème!";
+$_LANG['genericerror']['msg'] = "Veuillez réessayer et si le problème persiste, veuillez contacter notre équipe de support.";
 
 # Licensing Addon
 
@@ -1827,3 +1828,5 @@ $_LANG['licensingaddon']['validdirectory'] = "Répertoire valide";
 $_LANG['licensingaddon']['status'] = "Statut de la licence";
 $_LANG['licensingaddon']['reissue'] = "Réémettre la licence";
 $_LANG['licensingaddon']['reissuestatusmsg'] = "Le domaine valide, IP et répertoire seront détectés et enregistrés la prochaine fois que la license sera utilisée.";
+
+$_LANG['affiliateWithdrawalSummary'] = 'Vous pourrez effectuer une demande de virement dès que votre solde atteint le montant minimum requis :amountForWithdrawal.';
